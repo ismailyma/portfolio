@@ -3133,9 +3133,9 @@ fieldset:disabled .btn {
 }
 
 .btn-primary {
-  color: #212529;
+  color: #fff;
   background-color: transparent;
-  border-color: #212529;
+  border-color: #fff;
 }
 .btn-primary:hover {
   color: #fff;
@@ -3145,9 +3145,9 @@ fieldset:disabled .btn {
 .btn-check:focus + .btn-primary,
 .btn-primary:focus {
   color: #fff;
-  background-color: #196d87;
-  border-color: #17667f;
-  box-shadow: 0 0 0 0.25rem rgba(63, 147, 173, 0.5);
+  background-color: #212529;
+  border-color: #212529;
+  /* box-shadow: 0 0 0 0.25rem rgba(63, 147, 173, 0.5); */
 }
 .btn-check:checked + .btn-primary,
 .btn-check:active + .btn-primary,
@@ -3155,8 +3155,8 @@ fieldset:disabled .btn {
 .btn-primary.active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #17667f;
-  border-color: #166077;
+  background-color: #212529;
+  border-color: #212529;
 }
 .btn-check:checked + .btn-primary:focus,
 .btn-check:active + .btn-primary:focus,
@@ -7720,6 +7720,7 @@ fieldset:disabled .btn {
 
 .mb-1 {
   margin-bottom: 0.25rem !important;
+  color: #e9ecef !important;
 }
 
 .mb-2 {
@@ -7732,6 +7733,11 @@ fieldset:disabled .btn {
 
 .mb-4 {
   margin-bottom: 1.5rem !important;
+}
+
+.mb-55 {
+  margin-bottom: 3rem !important;
+  color: #e9ecef !important;
 }
 
 .mb-5 {
@@ -11865,7 +11871,7 @@ footer.footer .social-link:hover {
       rgba(255, 255, 255, 0.1) 0%,
       rgba(255, 255, 255, 0.1) 100%
     ),
-    url('../assets/img/keyboard.jpg');
+    url('../assets/img/background.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
